@@ -27,8 +27,6 @@
 	height: 100px;
 	padding: 0px 20px;
 }
-.header__logo {}
-.header__nav {}
 .header__nav a {
 	font-size: 12px;
 	text-transform: uppercase;
