@@ -26,9 +26,9 @@
 }
 .home__foto_img {
 	position: relative;
-	margin-bottom: -4px;
 }
 .home__foto_img img {
+	display: block;
 	max-width: 100%;
 }
 .home__foto_look {
@@ -50,12 +50,12 @@
 		padding: 80px 0px;
 	}
 	.home__foto {
-	grid-template-columns: repeat(3, 1fr);
+		grid-template-columns: repeat(3, 1fr);
 	}
 }
 @media (max-width: 380px) {
 	.home__foto {
-	grid-template-columns: repeat(2, 1fr);
+		grid-template-columns: repeat(2, 1fr);
 	}
 	.home__text {
 		padding: 60px 0px;

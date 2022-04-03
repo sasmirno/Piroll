@@ -98,8 +98,8 @@
 	margin-bottom: 30px;
 }
 .bio2__picture img {
+	display: block;
 	max-width: 100%;
-	margin-bottom: -4px;
 }
 /*--------------*/
 .page__connection {
