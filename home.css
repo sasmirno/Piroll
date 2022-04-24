@@ -45,6 +45,37 @@
 .home__foto_look:hover {
 	opacity: 0.7;
 }
+.prev, .next {
+	display: grid;
+	cursor: pointer;
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	top: 0;
+	padding: 10px;
+	color: white;
+	font-weight: bold;
+	font-size: 48px;
+	transition: 0.6s ease;
+	color: rgba(0,0,0,0);
+	color: rgba(255,255,255,0.1);
+	user-select: none;
+	-webkit-user-select: none;
+}
+.prev span {
+	align-self: center;
+}
+.next {
+	right: 0;
+}
+.next span {
+	align-self: center;
+	justify-self: end;
+}
+.prev:hover, .next:hover {
+	color: rgba(255,255,255,1);
+}
+
 @media (max-width: 768px) {
 	.home__text {
 		padding: 80px 0px;
@@ -101,8 +132,13 @@ body.lock{
 	right: 10px;
 	top: 10px;
 	font-size: 20px;
-	color: black;
+	color: rgba(0,0,0,0.5);
 	text-decoration: none;
+	padding: 10px;
+	z-index: 11;
+}
+.close-popup:hover{
+	color: rgba(0,0,0,1);
 }
 .popup__image {
 	max-width: 100%;
